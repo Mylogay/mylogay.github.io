@@ -44,7 +44,7 @@ body.bg-animate{
     color: white;
     border-radius: 10px 10px 0px 0px;
 
-    background: rgb(157,197,255);
+    background: rgba(135, 231, 54, 0.8);
     background: linear-gradient(180deg, rgba(157,197,255,1) 0%, rgba(101,182,255,1) 24%, rgba(101,182,255,1) 45%, rgba(0,98,241,1) 76%);
 }
 
