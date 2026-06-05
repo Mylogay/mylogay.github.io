@@ -13,18 +13,19 @@ body.bg-blue{
     background: linear-gradient(160deg, rgba(105,212,255,1) 0%, rgb(0, 82, 204) 100%);
 }
 body.bg-green{
-    background: rgb(105,212,255);
-    background: linear-gradient(160deg, rgba(105,212,255,1) 0%, rgb(5, 185, 14)100%);
+background: rgb(105,212,255);
+    background: linear-gradient(160deg, rgb(30, 144, 255) 0%, rgb(5, 185, 14) 100%);
 }
 
-@keyframes bg {
-    0%{
-        background-size: 100%;
+keyframes bg {
+    0% {
+        background-size: 600%;
+        background-position: top center; 
     }
 
-    100%{
-        background-size: 600%;
-
+    100% {
+        background-size: 100%;
+        background-position: center;
     }
 }
 /*rgba(0,98,241,1)*/
@@ -35,17 +36,17 @@ body.bg-animate{
     overflow-x: hidden;
 }
 
-#f-navbar{
+#f-navbar {
     margin-top: 20px;
     margin-bottom: 0px;
     text-align: left;
     padding: 0;
-    border: 1px solid rgb(5, 93, 255);
+    border: 1px solid rgb(5, 185, 14); 
     color: white;
     border-radius: 10px 10px 0px 0px;
 
-    background: rgba(135, 231, 54, 0.8);
-    background: linear-gradient(180deg, rgba(157,197,255,1) 0%, rgba(101,182,255,1) 24%, rgba(101,182,255,1) 45%, rgba(0,98,241,1) 76%);
+    background: rgb(160, 240, 110);
+    background: linear-gradient(180deg, rgba(180,255,130,1) 0%, rgba(110,225,60,1) 24%, rgba(50,200,15,1) 45%, rgba(15,150,0,1) 76%);
 }
 
 #f-navbar > a{
@@ -66,14 +67,14 @@ body.bg-animate{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-#f-navbar > a:active{
-    background: rgb(95,160,255);
-background: linear-gradient(180deg, rgba(95,160,255,1) 0%, rgba(53,159,255,1) 16%, rgba(28,147,255,1) 27%, rgba(0,80,198,1) 49%);
+#f-navbar > a:active {
+    background: rgb(110,220,60);
+    background: linear-gradient(180deg, rgba(110,220,60,1) 0%, rgba(45,180,10,1) 16%, rgba(20,150,0,1) 27%, rgba(10,100,0,1) 49%);
 }
 
-#f-navbar >a.active{
-    background: rgb(95,160,255);
-background: linear-gradient(180deg, rgba(95,160,255,1) 0%, rgba(53,159,255,1) 16%, rgba(28,147,255,1) 27%, rgba(0,80,198,1) 49%);
+#f-navbar > a.active {
+    background: rgb(110,220,60);
+    background: linear-gradient(180deg, rgba(110,220,60,1) 0%, rgba(45,180,10,1) 16%, rgba(20,150,0,1) 27%, rgba(10,100,0,1) 49%);
 }
 
 
