@@ -182,6 +182,7 @@ h1,h2,h3,h4,h5,h6{
 
 .f-gallery > img:hover {
     transform: scale(1.03);
+}
 
 .f-sub-navbar > a {
     font-size: large;
