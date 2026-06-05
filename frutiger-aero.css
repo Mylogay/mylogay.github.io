@@ -68,15 +68,16 @@ body.bg-animate{
 }
 
 #f-navbar > a:active {
-    background: rgb(110,220,60);
-    background: linear-gradient(180deg, rgba(110,220,60,1) 0%, rgba(45,180,10,1) 16%, rgba(20,150,0,1) 27%, rgba(10,100,0,1) 49%);
+    background: none; 
+    background-color: rgb(45, 180, 10); 
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.4); 
 }
 
 #f-navbar > a.active {
-    background: rgb(110,220,60);
-    background: linear-gradient(180deg, rgba(110,220,60,1) 0%, rgba(45,180,10,1) 16%, rgba(20,150,0,1) 27%, rgba(10,100,0,1) 49%);
+    background: none; 
+    background-color: rgb(45, 180, 10); 
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.4);
 }
-
 
 #f-container{
     width: 920px;
