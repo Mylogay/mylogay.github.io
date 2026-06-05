@@ -141,3 +141,42 @@ h1,h2,h3,h4,h5,h6{
     height: 90px;
     z-index: -1;
 }
+.f-sub-navbar {
+    margin-top: 30px;      
+    margin-bottom: -20px;  
+    margin-left: -10px;    
+    margin-right: -10px;   
+    text-align: center;    
+    padding: 0;
+    border-top: 1px solid rgb(5, 185, 14); 
+    border-radius: 0px 0px 10px 10px;    
+    overflow: hidden; 
+    
+   
+    background: rgb(160, 240, 110);
+    background: linear-gradient(180deg, rgba(180,255,130,1) 0%, rgba(110,225,60,1) 24%, rgba(50,200,15,1) 45%, rgba(15,150,0,1) 76%);
+}
+
+.f-sub-navbar > a {
+    font-size: large;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+
+.f-sub-navbar > a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.f-sub-navbar > a.sub-active {
+    background: rgb(110,220,60);
+    background: linear-gradient(180deg, rgba(110,220,60,1) 0%, rgba(45,180,10,1) 16%, rgba(20,150,0,1) 27%, rgba(10,100,0,1) 49%);
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.3); /* Gives it a sleek pressed-in tab look */
+}
