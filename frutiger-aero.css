@@ -257,3 +257,41 @@ h1,h2,h3,h4,h5,h6{
     background: linear-gradient(180deg, rgba(110,220,60,1) 0%, rgba(45,180,10,1) 16%, rgba(20,150,0,1) 27%, rgba(10,100,0,1) 49%);
     box-shadow: inset 0px 2px 5px rgba(0,0,0,0.3); 
 }
+
+@media (max-width: 960px) {
+    
+    #f-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #f-navbar {
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+    }
+    
+    #f-navbar > a {
+        display: block;  
+        font-size: large;
+        padding: 15px 10px;
+        border-radius: 0; 
+    }
+    
+    #f-navbar > a:first-child {
+        border-radius: 9px 9px 0px 0px; 
+    }
+
+    .f-img-small {
+        float: none !important;
+        width: 90% !important;
+        display: block;
+        margin: 15px auto !important;
+    }
+
+    .f-sub-navbar > a {
+        display: block;
+        padding: 12px 10px;
+    }
+}
